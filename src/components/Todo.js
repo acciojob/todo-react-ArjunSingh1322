@@ -29,9 +29,10 @@ function Delete(index){
             {
                 flag && currentvalue.map((value,index)=>(
                     <div>
-                    <p>{value}{"              "}
+                        <ul>
+                    <li>{value}{"              "}
                     <button onClick={()=>Delete(index)}>Remove</button>
-                        </p></div>
+                        </li></ul></div>
                 ))
             }
         </div>
